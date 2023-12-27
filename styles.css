@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+    max-width: 85%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+h1 {
+    padding-top: 4%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20;
+}
+
+img {
+    width: 400;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+    display: flex;
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav a {
+    color: rgb(255, 0, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+    background-color: #ddd;
+}
+  
+/* Change colors to the active/current link */
+.nav a.active {
+    background-color: gray;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+#headerLogo {
+    width: 300;
+    height: auto;
+    box-shadow: none;
+}
+
+#galleryImg {
+    width: 85%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Envelop image in "Contact" page */
+#Envelop {
+    align="center";
+    width: 40;
+    height="30";
+    border-radius: 0%;
+}
+
+/*Contact Us image in "Contact" page */
+#ContactUs {
+    box-shadow: none;
+}
